@@ -19,7 +19,7 @@ int main()
         bool flag = false;
         while (!flag)
         {
-            std::cout << "          " << std::endl;
+            std::cout << std::endl;
             std::cout << "1. add;" << std::endl;
             std::cout << "2. remove;" << std::endl;
             std::cout << "3. print;" << std::endl;

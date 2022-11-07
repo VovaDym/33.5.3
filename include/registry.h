@@ -31,7 +31,7 @@ public:
         std::cout << "Key: " << key << std::endl;
         std::cout << "Value: " << value << std::endl;
         std::cout << "Was added on registry" << std::endl;
-        std::cout << "          " << std::endl;
+        std::cout << std::endl;
     }
 
     void remove()
@@ -46,12 +46,12 @@ public:
         {
             registry.erase(key);
             std::cout << "Key: " << key << " was deleted " << std::endl;
-            std::cout << "          " << std::endl;
+            std::cout << std::endl;
         }
         else
         {
             std::cout << "Key: " << key << " doesn't find " << std::endl;
-            std::cout << "          " << std::endl;
+            std::cout << std::endl;
         }
     }
 
@@ -83,7 +83,7 @@ public:
             std::cout << itf.first->second << ' ';
             ++itf.first;
         }
-        std::cout << "          " << std::endl;
+        std::cout  << std::endl;
     }
 
 private:
